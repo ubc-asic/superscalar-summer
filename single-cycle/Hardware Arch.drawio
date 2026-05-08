@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="p3Q1rwKWQDNKqCjt-_EU">
-    <mxGraphModel dx="355" dy="226" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="881" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,22 +8,22 @@
           <mxGeometry height="200" width="120" x="680" y="200" as="geometry" />
         </mxCell>
         <mxCell id="MvClO44kt9W8xLhhUr_F-3" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="290" width="460" x="70" y="190" as="geometry" />
+          <mxGeometry height="260" width="460" x="70" y="190" as="geometry" />
         </mxCell>
         <mxCell id="MvClO44kt9W8xLhhUr_F-4" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Reg File" vertex="1">
-          <mxGeometry height="80" width="80" x="100" y="200" as="geometry" />
+          <mxGeometry height="80" width="80" x="80" y="199" as="geometry" />
         </mxCell>
         <mxCell id="MvClO44kt9W8xLhhUr_F-5" parent="1" style="whiteSpace=wrap;html=1;" value="SPI MEM CTRLR" vertex="1">
           <mxGeometry height="230" width="80" x="435" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="MvClO44kt9W8xLhhUr_F-6" parent="1" style="whiteSpace=wrap;html=1;" value="RISCV-CORE-0" vertex="1">
+        <mxCell id="MvClO44kt9W8xLhhUr_F-6" parent="1" style="whiteSpace=wrap;html=1;" value="DATAPATH-0" vertex="1">
           <mxGeometry height="80" width="330" x="80" y="350" as="geometry" />
         </mxCell>
         <mxCell id="MvClO44kt9W8xLhhUr_F-7" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="IMEM" vertex="1">
-          <mxGeometry height="80" width="80" x="205" y="200" as="geometry" />
+          <mxGeometry height="80" width="80" x="200" y="199" as="geometry" />
         </mxCell>
         <mxCell id="MvClO44kt9W8xLhhUr_F-8" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="CTRL UNIT" vertex="1">
-          <mxGeometry height="80" width="80" x="320" y="200" as="geometry" />
+          <mxGeometry height="80" width="80" x="320" y="199" as="geometry" />
         </mxCell>
         <mxCell id="MvClO44kt9W8xLhhUr_F-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CS" vertex="1">
           <mxGeometry height="30" width="60" x="631" y="199" as="geometry" />
