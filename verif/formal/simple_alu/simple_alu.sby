@@ -13,10 +13,10 @@ smtbmc
 [script]
 read -formal -sv simple_alu.sv
 read -formal -sv simple_alu_fv.sv
-read -formal -sv simple_alu_bind.sv
-prep -top simple_alu
+read -formal -sv simple_alu_top_fv.sv
+prep -top simple_alu_top_fv
 
 [files]
 ../../../rtl/simple_alu.sv
 simple_alu_fv.sv
-simple_alu_bind.sv
+simple_alu_top_fv.sv
