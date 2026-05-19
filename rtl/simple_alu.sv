@@ -25,7 +25,7 @@ module simple_alu (
 
     always_ff @(posedge clk) begin
     if (~rst) begin
-        y <= '0;
+        y <= 8'b1;
         overflow <= '0;
     end
     else begin

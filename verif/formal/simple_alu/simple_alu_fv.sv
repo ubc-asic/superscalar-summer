@@ -21,9 +21,9 @@ module simple_alu_fv (
     // a_rst_y: assert property (p_rst_y)
     //     else $error("RESET CHECK FAILED: rst=%0b y=%0h, expected y=0", rst, y);
 
-    // Reset check
-    a_rst_y: assert property (
-        @(posedge clk) ~rst |-> (y == '0)
-    ) else $error("RESET CHECK FAILED: rst=%0b y=%0h expected 0", rst, y);
-
+    // Reset check 
+    always_ff @(posedge clk) begin
+        if (~rst)          
+            assert (1 == 0);
+    end
 endmodule
