@@ -19,7 +19,7 @@
  * IMPORTANT: The module definition MUST follow the Tiny Tapeout specification
  *            exactly. Do not modify the port names.
  */
- /* verilog_lint: waive module-filename */
+/* verilog_lint: waive module-filename */
 module tt_top_ubc_montreal (
   /* verilog_lint: waive-start port-name-suffix */
   /* Dedicated inputs. */
