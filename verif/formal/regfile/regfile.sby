@@ -11,13 +11,13 @@ prove: depth 20
 smtbmc
 
 [script]
-read -define SYMBIYOSYS=1
+read -formal -sv config_pkg.sv
 read -formal -sv regfile.sv
-read -formal -sv regfile_check.sv
-read -formal -sv regfile_top.sv
-prep -top regfile_top
+read -formal -sv regfile_ind.sv
+prep -top regfile_ind
 
 [files]
+rtl/types.svh
+rtl/config_pkg.sv
 rtl/regfile.sv
-verif/formal/regfile/regfile_check.sv
-verif/formal/regfile/regfile_top.sv
+verif/formal/regfile/regfile_ind.sv
