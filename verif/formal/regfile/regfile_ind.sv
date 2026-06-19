@@ -56,6 +56,7 @@ module regfile_ind (
   initial assume (past_valid == '0);
 
   always_ff @(posedge clk_i) begin
+    /* verilog_lint: waive dff-name-style */
     past_valid <= '1;
   end
 
