@@ -6,15 +6,15 @@ jobs:
   formal:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
-      - uses: YosysHQ/setup-oss-cad-suite@v4
-      - name: Run test
-        shell: bash
-        run: sby -f verif/formal/regfile/regfile.sby
-      - name: Upload artifacts
-        uses: actions/upload-artifact@v7
-        with:
-          name: formal-verification
-          path: |
-            verif/formal/regfile/regfile_cover/*
-            verif/formal/regfile/regfile_prove/*
+    - uses: actions/checkout@master
+    - uses: YosysHQ/setup-oss-cad-suite@v4
+    - name: Run test
+      shell: bash
+      run: sby -f verif/formal/regfile/regfile.sby
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v7
+      with:
+        name: formal-verification
+        path: |
+          verif/formal/regfile/regfile_cover/*
+          verif/formal/regfile/regfile_prove/*
